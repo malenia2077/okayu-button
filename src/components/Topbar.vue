@@ -11,7 +11,7 @@
         <v-app-bar-nav-icon v-on="menu" v-show="$vuetify.breakpoint.smAndDown"></v-app-bar-nav-icon>
       </template>
       <v-list>
-        <v-list-item @click="See('https://www.youtube.com/channel/UCvaTdHTWBGv3MKj3KVqJVCw?sub_confirmation=1')">
+        <v-list-item @click="See('https://www.youtube.com/channel/UCvaTdHTWBGv3MKj3KVqJVCw')">
           <v-list-item-title>
             <v-icon left color="red">mdi-youtube</v-icon>
             Okayu Ch. 猫又おかゆ
@@ -34,9 +34,9 @@
     </v-menu>
     <v-toolbar-title>{{$t("ui.title")}}</v-toolbar-title>
     <v-btn v-if="$vuetify.breakpoint.mdAndUp" class="ml-4 text-capitalize" color="red"
-           @click="See('https://www.youtube.com/channel/UCvaTdHTWBGv3MKj3KVqJVCw?sub_confirmation=1')">
+           @click="See('https://www.youtube.com/channel/UCvaTdHTWBGv3MKj3KVqJVCw')">
       <v-icon left>mdi-youtube</v-icon>
-      Korone Ch. 戌神ころね
+      Okayu Ch. 猫又おかゆ
     </v-btn>
     <v-btn v-if="$vuetify.breakpoint.mdAndUp" class="ml-4 text-lowercase" color="blue"
            @click="See('https://twitter.com/nekomataokayu')">

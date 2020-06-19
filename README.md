@@ -1,4 +1,4 @@
-# Okayu-Button
+# 猫按钮 / Okayu-Button
 
 猫又小粥语音按钮 / Voice Buttons for Nekomata Okayu
 
@@ -8,8 +8,8 @@
 音源来自VTuber猫又小粥
 该项目为爱好者自行创建，与Hololive官方无关，所有二次创作均需遵守[Hololive二创规范](https://www.hololive.tv/terms)
 相关链接：
-* 戌神沁音Twitter：<https://twitter.com/nekomataokayu> 
-* Youtube：<https://www.youtube.com/channel/UCvaTdHTWBGv3MKj3KVqJVCw?sub_confirmation=1>  
+* 猫又小粥Twitter：<https://twitter.com/nekomataokayu> 
+* Youtube：<https://www.youtube.com/channel/UCvaTdHTWBGv3MKj3KVqJVCw>  
 * Bilibili：<https://space.bilibili.com/412135222>
 
 本网页UI基于Vuetify框架：<https://vuetifyjs.com/>  
@@ -32,7 +32,7 @@
 * Fork这个项目  
 * 部署node.js，在命令行中安装Vue-cli `npm install -g @vue/cli`  
 * cd到项目文件夹，运行 `npm install` 来安装项目中用到的依赖
-* 运行`npm run dev` 即可在http://127.0.0.1:8080/ 中访问站点
+* 运行`npm run serve` 即可在http://127.0.0.1:8080/ 中访问站点
 * 用VSCode或其他工具进行修改后发送一个Pull request请求即可
 
 所有的音源在/src/assets/voices.json中有定义
@@ -49,6 +49,7 @@
 
 * [Coceki](https://space.bilibili.com/11229533)
 * [Lonelyion](https://space.bilibili.com/7564991)
+* [Nyaasu](https://space.bilibili.com/79589612)
 
 特别感谢:
 
